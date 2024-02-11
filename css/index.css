@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+
+
+.menu{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #0531A3;
+    padding: 20px;
+    width: 1920px;
+    height: 100px;
+    color: white;
+}
+.menu > h2{
+    
+}
+.menu > img{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.menu > select, .menu > h2{
+    margin: 20px;
+}
+#titulo{
+    color: #E67E04;
+}
+.menu > select{
+    font-size: 30px;
+    text-align: center;
+    border: 3px black solid;
+    background-color: #0531A3;
+    color: white;
+
+}
+
+
+
+.menu > option{
+    font-size: 30px;
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 20px;
+    background-color: #0531A3;
+    color: white;
+}
+#categorias{
+    width: 216px;
+    height: 61px;
+}
+
+h1{
+    position: relative;
+    right: 60px;
+    font-size: 40px;
+}
+#logo{  
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    width: 300px;
+    height: 150px;
+}
+
+.pie_de_pagina{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+}
+
+.pie_de_pagina > div{
+    margin: auto;
+}
+
+.buscador{
+    display: flex;
+    flex-direction: row;
+    background-color:#F5ECEC;
+    width: 1000px;
+    height: 45px;
+    margin-left: 400px;
+    margin-top: 20px;
+    border: 2px solid #004d00;
+}
+
+.buscador > img{
+    width: 60px;
+    height: 45px;
+}
+input{
+    background-color: #F5ECEC;
+    width: 900px;
+    border: none;
+}
+#hamburguesa{
+    background-color: #435042;
+}
+
+.mas_vendidos{
+    position: relative;
+    left: 150px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fefcce88;
+    border-radius: 35px;
+    height: 400px;
+    width: 1300px;
+    padding: 120px;
+    margin-top: 75px;
+}
+
+.mas_vendidos > span{
+    display: flex;
+    flex-direction: column;
+}
+
+.mas_vendidos > img{
+    position: relative;
+    bottom: 100px;
+    width: 1000px;
+    height: 600px;
+}
+
+#secundarios{
+    position: relative;
+    bottom: 100px;
+    height: 1px;
+    width: 326px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    background-color:#DDC1C1;
+    height: 265px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    position: relative;
+    right: 200px;
+}
+
+.producto > img{
+    border-radius: 10px;
+    height: 140px;
+    width: 243px;
+}
+
+.producto > h4{
+    position: relative;
+    bottom: 30px;
+    font-size: 30px;
+}
+.valoraciones > img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 60px;
+}
+
+.producto > h3{
+    position: relative;
+    font-size: 40px;
+    bottom: 100px;
+    left: 200px;
+    color: #E43434;
+}
+
+.lista > img{
+    width: 53px;
+    height: 48px;
+}
+
+.pie_de_pagina{
+    display: flex;
+    flex-direction: row;
+    background-color: #0531A3;
+}
+
+#redes{
+    position: relative;
+    right: 200px;
+}
+.pie_de_pagina > div > img{
+    width: 36px;
+}
+
+.pie_de_pagina > div{
+   font-size: 20px;
+}
+
+#flecha{
+    position: relative;
+    width: 350px;
+    height: 150px;
+    top: 20px;
+    right: 70px;
+
+}
+
+#flecha2{
+   position: relative;
+   width: 350px;
+   height: 150px;
+   right: 350px;
+   top: 20px;
+
+}
+
+
+
+
+

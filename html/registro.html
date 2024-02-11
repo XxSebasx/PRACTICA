@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="pagina_inicio">
+    <meta name="description" content="Practica HTML">
+    <meta name="author" content="Sebastián García Recio">
+    <meta name="Content Languaje" content="es">
+    <link rel="icon" type="icon/png" href="imagenes/icono.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registro.css" type="text/css">
+    <title>Tu título aquí</title>
+</head>
+
+<body>
+    <div class="menu">
+        <img src="../img/logo.png" alt="logo" id="logo">
+        <h1>THE MINERAL CORNER</h1>
+        <h2>CONTACTAR</h2>
+        <h2>SOBRE NOSOTROS</h2>
+        <h2>Categorias</h2>
+        <img src="../img/perfil.png">
+        <img src="../img/carrito.png">
+    </div>
+
+    <div class="cuerpo">
+        <img src="../img/gemas.png" alt="gemas">
+        <form action="post">
+            <div>
+                <div>
+                    <label for="usuario">Nombre de usuario</label>
+                    <input type="text" id="usuario">
+                </div>
+                <div>
+                    <label for="contraseña">contraseña</label>
+                    <input type="text" id="contraseña">
+                </div>
+            </div>
+
+
+            <div>
+                <div>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre">
+                </div>
+                <div>
+                    <label for="Apellidos">Apellidos</label>
+                    <input type="text" id="Apellidos">
+                </div>
+            </div>
+
+
+            <div>
+                <div>
+                    <label for="Correo">Correo</label>
+                    <input type="text" id="Correo">
+                </div>
+                <div>
+                    <label for="Numero">Numero de telefono</label>
+                    <div id="telefono">
+                        <select id="numero">
+                            <option value="+34">+34</option>
+                            <option value="+39">+39</option>
+                            <option value="+33">+33</option>
+                        </select>
+                        <input type="text" id="resto_numero">
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div>
+                    <label for="Pais">País</label>
+                    <select id="Pais">
+                        <option value="Espana">España</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Italia">Italia</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Ciudad">Ciudad</label>
+                    <select id="Ciudad">
+                        <option value="Cádiz">Cádiz</option>
+                        <option value="Paris">París</option>
+                        <option value="Roma">Roma</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <label for="dni">DNI</label>
+                    <input type="text" id="dni">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar" id="enviar">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="pie_de_pagina">
+        <div id="redes">
+            <h3>Síguenos en:</h3>
+            <img src="../img/facebook.png">
+            <img src="../img/instagram.png">
+            <img src="../img/twiiter.png">
+        </div>
+
+        <div>
+            <p>© 2023, TheMineralCorner.com o sus afiliados</p>
+        </div>
+    </div>
+
+</body>
+</html>

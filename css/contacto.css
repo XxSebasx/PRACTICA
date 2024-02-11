@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom:40px ;
+}
+
+.cuerpo > img{
+    width: 1000px;
+    height: 600px;
+}
+
+form{
+    border-radius: 10px;
+    background-color: #a5a2b9;
+    width: 880px;
+    height: 750px;
+    border-radius: 20px;
+    font-size: 25px;
+    
+}
+form > div{
+    position: relative;
+    top: 20px;
+    display:  flex;
+    flex-direction: row;
+    padding: auto;
+    margin-left: 80px;
+}
+
+#telefono{
+    display: flex;
+    flex-direction: row;
+}
+
+#resto_numero{
+    width: 100px;
+}
+
+form > div > div{
+    display: flex;
+    flex-direction: column;
+    width: 353px;
+    height: 151px;
+}
+
+form > div > div > input{
+    width: 303px;
+    height: 49px;
+}
+
+.pie_de_pagina{
+    display: flex;
+    flex-direction: row;
+    background-color: #0531A3;
+}
+
+#redes{
+    position: relative;
+    right: 200px;
+}
+.pie_de_pagina > div > img{
+    width: 36px;
+}
+
+.pie_de_pagina > div{
+   font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    background-color: #0531A3;
+    padding: 20px;
+}
+
+.menu > img{
+    width: 100px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.menu > h1, h2{
+    margin-left: auto;
+    position: relative;
+    top: 20px;
+}
+
+#logo{
+    width: 200px;
+}
+
+.pie_de_pagina{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+}
+
+.pie_de_pagina > div{
+    margin: auto;
+}
+
+#resto_numero{
+    height: 40px;
+    width: 255px;
+}
+
+#Pais, #Ciudad{
+    height: 60px;
+    width: 170px;
+    border-radius: 5px;
+}
+
+#enviar{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 285px;
+    height: 69px;
+
+}
+
